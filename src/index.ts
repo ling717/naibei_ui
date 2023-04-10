@@ -17,3 +17,5 @@ createApp({
 })
 .use(SmartyUI)
 .mount("#app");
+
+// 测试

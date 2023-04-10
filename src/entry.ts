@@ -1,7 +1,7 @@
 
 
 import { App } from "vue"
-import SButton from "./button/index"
+import SButton from "./button/Button"
 import SFCButton from "./SFCButton.vue"
 import JSXButton from "./JSXButton"
 

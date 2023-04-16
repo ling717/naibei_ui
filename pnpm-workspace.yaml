@@ -1,0 +1,3 @@
+package:
+  - 'packages/**' #编写存放的组件
+  - play 

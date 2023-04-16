@@ -23,5 +23,10 @@
     "prettier": "^2.8.7",
     "typescript": "^5.0.4",
     "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@naibei_ui/components": "workspace:^",
+    "@naibei_ui/theme": "workspace:^",
+    "@naibei_ui/utils": "workspace:^"
   }
 }

@@ -1,7 +1,9 @@
-import {createApp} from "vue"
+import { createApp } from "vue";
 
-import App from "./app.vue"
+import App from "./app.vue";
 
-const app =createApp(App)
+import NbIcon from "@naibei_ui/components/icon";
 
-app.mount('#app')
+const app = createApp(App);
+app.use(NbIcon);
+app.mount("#app");

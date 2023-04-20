@@ -1,0 +1,54 @@
+@use './mixins/mixins.scss'  as *;
+
+@font-face {
+    font-family: "#{$namespace}-ui-icons"; /* Project id 4029011 */
+    src: url('./fonts/iconfont.woff2') format('woff2'),
+         url('./fonts/iconfont.woff') format('woff'),
+         url('./fonts/iconfont.ttf') format('truetype');
+  }
+  
+  [class^='#{$namespace}-icon'],[class*='#{$namespace}-icon'] {
+    font-family: "nb-ui-icons" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .#{$namespace}-icon-dingdingka:before {
+    content: "\e786";
+  }
+  
+  .#{$namespace}-icon-duanxin:before {
+    content: "\e787";
+  }
+  
+  .#{$namespace}-icon-dingyue:before {
+    content: "\e788";
+  }
+  
+  .#{$namespace}-icon-duigou:before {
+    content: "\e789";
+  }
+  
+  .#{$namespace}-icon-dingzhu:before {
+    content: "\e78a";
+  }
+  
+  .#{$namespace}-icon-dingdingqidian:before {
+    content: "\e78b";
+  }
+  
+  .#{$namespace}-icon-dingpan:before {
+    content: "\e78c";
+  }
+  
+  .#{$namespace}-icon-dingding:before {
+    content: "\e78d";
+  }
+  
+  .#{$namespace}-icon-a-fasong2:before {
+    content: "\e78e";
+  }
+  
+  

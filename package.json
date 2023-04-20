@@ -27,6 +27,7 @@
   "dependencies": {
     "@naibei_ui/components": "workspace:^",
     "@naibei_ui/theme": "workspace:^",
-    "@naibei_ui/utils": "workspace:^"
+    "@naibei_ui/utils": "workspace:^",
+    "sass": "^1.62.0"
   }
 }

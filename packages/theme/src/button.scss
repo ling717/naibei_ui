@@ -1,0 +1,21 @@
+@use './mixins/mixins.scss'  as *;
+
+$btn : #{$namespace}-button;
+
+// nb-button__wrapper
+// 基础样式
+.#{$btn}#{$element-separator}wrapper {
+    cursor: pointer;
+    border-radius: 15%;
+    border:0px solid transparent;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    width:60px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+

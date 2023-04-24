@@ -1,0 +1,28 @@
+@use "sass:map";
+
+$types: (
+    "primary": (
+        "color": #fff,
+        "bgColor": #409eff,
+    ),
+    "danger": (
+        "color": #fff,
+        "bgColor": #ff7875,
+    ),
+    "info": (
+        "color": #fff,
+        "bgColor": #909399,
+    ),
+    "warning": (
+        "color": #fff,
+        "bgColor": #e6a23c,
+    ),
+    "success": (
+        "color": #fff,
+        "bgColor": #67c23a,
+    ),
+    "default": (
+        "color": #606266,
+        "bgColor": #f4f4f5,
+    ),
+);

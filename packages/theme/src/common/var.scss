@@ -1,0 +1,55 @@
+@use "sass:map";
+
+//color
+$types: (
+    "primary": (
+        "color": #fff,
+        "bgColor": #409eff,
+    ),
+    "danger": (
+        "color": #fff,
+        "bgColor": #ff7875,
+    ),
+    "info": (
+        "color": #fff,
+        "bgColor": #909399,
+    ),
+    "warning": (
+        "color": #fff,
+        "bgColor": #e6a23c,
+    ),
+    "success": (
+        "color": #fff,
+        "bgColor": #67c23a,
+    ),
+    "default": (
+        "color": #606266,
+        "bgColor": #f4f4f5,
+    ),
+);
+$--font-size-samll: 14px;
+$--font-size-medium: 16px;
+$btnSize: (
+    "large": (
+        "height": 40px,
+        "line-height": 40px,
+        "min-width": 40px,
+    ),
+    "medium": (
+        "height": 36px,
+        "line-height": 36px,
+        "min-width": 36px,
+    ),
+    "small": (
+        "height": 32px,
+        "line-height": 32px,
+        "font-size": $--font-size-samll,
+        "min-width": 32px,
+    ),
+    "mini": (
+        "height": 28px,
+        "line-height": 28px,
+        "font-size": $--font-size-samll,
+        "min-width": 28px,
+    ),
+);
